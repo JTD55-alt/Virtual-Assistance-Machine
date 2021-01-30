@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  background-color: #50cdff;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div p {
+  padding: 20px;
+  background-color: #00000033;
+  border-radius: 60%;
+}
+
+div {
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.1rem;
+  width: 170px;
+  line-height: 2;
+  margin-top: 30px;
+}
+
+@media all and (max-height: 410px) {
+  div {
+    position: static;
+  }
+}
+
+.phrase {
+  font-weight: bold;
+}
+
+.output {
+  font-style: italic;
+}

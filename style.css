@@ -1,0 +1,58 @@
+.commandOption{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+}
+
+
+article {
+  display: inline-grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid black;
+  border-radius: 10px;
+  background-color: #0066ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+section:hover{
+  /*-webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+  
+  transform: translate(30cm);*/
+  transform: translateY(-0.5cm);
+  background-color: #00ff40;
+}
+
+
+
+
+
+
+
+
+body {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2f2f2f;
+}
+
